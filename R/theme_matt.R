@@ -7,9 +7,9 @@
 #' ggplot() + theme_matt()
 
 
-theme_matt <- function()
+theme_matt <- function(font = "Nyala")
 {
-font = "Nyala"
+
 theme_minimal()+
   theme(
     rect = element_rect(fill = "#f0f3f0", color = NA),
