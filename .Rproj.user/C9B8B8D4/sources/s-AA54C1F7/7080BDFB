@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566081528338.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7080BDFB",
+    "lastKnownWriteTime" : 1566081915,
+    "last_content_update" : 1566081915183,
+    "path" : "~/MattPack/R/color_scales.R",
+    "project_path" : "R/color_scales.R",
+    "properties" : {
+        "cursorPosition" : "20,0",
+        "scrollLine" : "24"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
