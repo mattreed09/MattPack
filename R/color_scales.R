@@ -28,7 +28,7 @@ scale_colour_matt <- function(
 ) {
   ggplot2::discrete_scale(
     "colour", "matts",
-    branded_pal(primary, other, direction),
+    my_palette(primary, other, direction),
     ...
   )
 }
@@ -47,7 +47,7 @@ scale_fill_matt <- function(
 ) {
   ggplot2::discrete_scale(
     "fill", "matts",
-    branded_pal(primary, other, direction),
+    my_palette(primary, other, direction),
     ...
   )
 }

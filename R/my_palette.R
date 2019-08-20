@@ -15,18 +15,18 @@ my_palette <- function(
   other = "gold",
   direction = 1
 ) {
-  stopifnot(primary %in% names(branded_colors))
+  stopifnot(primary %in% names(my_colors))
 
   function(n) {
     if (n > 6) warning("Color Palette only has 6 colors.")
 
     if (n == 2) {
-      other <- if (!other %in% names(branded_colors)) {
+      other <- if (!other %in% names(my_colors)) {
         other
       } else {
         branded_colors[other]
       }
-      color_list <- c(other, branded_colors[primary])
+      color_list <- c(other, my_colors[primary])
     } else {
       color_list <- branded_colors[1:n]
     }
